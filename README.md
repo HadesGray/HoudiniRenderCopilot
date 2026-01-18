@@ -2,7 +2,6 @@
 
 A batch render manager designed for SideFX Houdini. Automate your rendering queue with style and real-time performance monitoring.
 
-![Houdini Render Copilot UI](https://github.com/USER/REPO/raw/main/screenshot.png) *(Replace with your image URL)*
 
 ## ✨ Key Features
 
