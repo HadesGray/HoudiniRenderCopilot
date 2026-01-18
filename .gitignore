@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / EXE Build
+build/
+dist/
+*.spec
+
+# Local config & logs
+config.json
+temp_node_reader.py
+HoudiniRenderManager_temp_*.py
+
+# Temporary Helper Scripts (Can be deleted)
+clean_code.py
+final_fix.py
+fix_restore.py
+fix_restore_v2.py
+safe_clean.py
+fix_restore_v2.py
+fix_restore.py
+final_fix.py
+safe_clean.py
+
+# Environments
+.venv/
+env/
+venv/
+.conda/
+
+# OS files
+.DS_Store
+Thumbs.db
