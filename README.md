@@ -27,17 +27,20 @@ A batch render manager designed for SideFX Houdini. Automate your rendering queu
 ```bash
 git clone https://github.com/USER/REPO.git
 cd Houdini-Render-Copilot
+# Install dependencies
 pip install PySide6 psutil
+# Run the application
 python HoudiniRenderManager.py
 ```
 
 ## 📦 Deployment
-To package the app into a standalone executable:
-1. Open a Conda Prompt.
+To package the app into a standalone executable on Windows:
+1. Ensure you have PyInstaller installed (`pip install pyinstaller`).
 2. Run the provided build script:
 ```bash
 package_app.bat
 ```
+The script will handle dependency checks and bundle the app into a single EXE in the `dist` folder.
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submi a Pull Request.
